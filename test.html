@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  .container {
+    display: flex; /* Используем Flexbox */
+    height: 100%; /* Высота контейнера равна высоте окна браузера */
+  }
+  .menu {
+    flex: 1; /* Занимает всю доступную ширину */
+    background-color: lightblue; /* Цвет фона меню */
+    /* Можно добавить другие стили, если нужно */
+  }
+  .table {
+    flex: 1; /* Также занимает всю доступную ширину */
+    background-color: lightgreen; /* Цвет фона таблицы */
+    /* Можно добавить другие стили, если нужно */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="menu">Меню</div>
+  <div class="table">Таблица</div>
+</div>
+
+</body>
+</html>
