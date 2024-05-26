@@ -1,0 +1,26 @@
+.back {
+    background-color: #ecedef;
+    width: 1465px;
+    height: 1000px;
+    border-radius: 3%;
+}
+
+.button-menu {
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 0;
+    color: #000000;
+    background-color: #7c10f02f;
+    padding: 18px 32px;
+    border-radius: 6px;
+    font: 600 22px "Montserrat";
+    box-shadow: 0 5px 0 #5370ff;
+    transition: .3s;
+  }
+  
+  button:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #3b2ce5;
+  }
+  
